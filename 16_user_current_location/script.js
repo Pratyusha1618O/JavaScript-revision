@@ -1,6 +1,6 @@
 const btn = document.getElementById('btn')
 
-async function getData(lat, long){
+async function getData(lat, long){ //fetching data wrt latitude and longitude
     const promise = await fetch(`https://api.weatherapi.com/v1/current.json?key=14442cab8be047b1a7245234240805&q=${lat},${long}&aqi=yes`);
     return promise.json()
 }

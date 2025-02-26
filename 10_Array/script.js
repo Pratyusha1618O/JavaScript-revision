@@ -6,7 +6,7 @@ console.log(students.length) //3
 console.log(students[2]);
 console.log(students[4]); // undefined
 
-students[0] = 'Rajdip'
+students[0] = 'Deep'
 console.log(students)
 
 students.push('Riya') // push value at the end

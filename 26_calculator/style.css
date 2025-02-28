@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.calculator{
+    height: 25rem;
+    width: 23rem;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgb(110, 110, 110);
+}
+.calculator-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cal-button{
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(172, 208, 255);
+    padding: 0.5rem;
+    margin: 3px 0px;
+}
+
+.cal-button:hover{
+    background-color: pink;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buttons{
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    text-align: right;
+    height: 10%;
+    /* background-color: bisque; */
+}
+
+h1{
+    text-align: center;
+}
